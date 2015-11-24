@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "ContosoAdsCloudService", "ContosoAdsCloudService\ContosoAdsCloudService.ccproj", "{4359800D-A1FD-4FED-BD17-768BB1A2340C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoAdsWeb", "ContosoAdsWeb\ContosoAdsWeb.csproj", "{D88463AC-105C-45F3-AE5F-EA4A12DF8C52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoAdsWorker", "ContosoAdsWorker\ContosoAdsWorker.csproj", "{7F48973D-F953-4FCF-AB14-A1FA4D7C7F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoAdsCommon", "ContosoAdsCommon\ContosoAdsCommon.csproj", "{496BCB1A-14C8-4ECA-990B-1AC226DFE32B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4359800D-A1FD-4FED-BD17-768BB1A2340C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4359800D-A1FD-4FED-BD17-768BB1A2340C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4359800D-A1FD-4FED-BD17-768BB1A2340C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4359800D-A1FD-4FED-BD17-768BB1A2340C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D88463AC-105C-45F3-AE5F-EA4A12DF8C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88463AC-105C-45F3-AE5F-EA4A12DF8C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88463AC-105C-45F3-AE5F-EA4A12DF8C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88463AC-105C-45F3-AE5F-EA4A12DF8C52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F48973D-F953-4FCF-AB14-A1FA4D7C7F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F48973D-F953-4FCF-AB14-A1FA4D7C7F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F48973D-F953-4FCF-AB14-A1FA4D7C7F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F48973D-F953-4FCF-AB14-A1FA4D7C7F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{496BCB1A-14C8-4ECA-990B-1AC226DFE32B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{496BCB1A-14C8-4ECA-990B-1AC226DFE32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{496BCB1A-14C8-4ECA-990B-1AC226DFE32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{496BCB1A-14C8-4ECA-990B-1AC226DFE32B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
