@@ -16,6 +16,7 @@
       <InputEndpoint name="Endpoint1" protocol="http" port="80" />
     </Endpoints>
   </WebRole>
+  
   <WorkerRole name="ContosoAdsWorker" vmsize="Small">
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
@@ -23,4 +24,5 @@
       <Setting name="ContosoAdsDbConnectionString" />
     </ConfigurationSettings>
   </WorkerRole>
+  
 </ServiceDefinition>

@@ -3,16 +3,16 @@
   <Role name="ContosoAdsWeb">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=banlongstorage;AccountKey=pXCqNOei6f1ImewLMc8RgV8HeXUpoo4T2Y6UXYCMMFY57d+CaAoDwszgXj82dJyPL2SspxIeVGDMxMHf0piXiw==" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=ngocontosoadsstorage;AccountKey=5o94GSsbVHASkio3vMbpU9qmyucRHIgYdMcj4K7hL6nuPFUbgLrpyKDjyBUjRpYKvkOrH0Fmd1zOtB3UWMfekA==" />
     </ConfigurationSettings>
   </Role>
   <Role name="ContosoAdsWorker">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=banlongstorage;AccountKey=pXCqNOei6f1ImewLMc8RgV8HeXUpoo4T2Y6UXYCMMFY57d+CaAoDwszgXj82dJyPL2SspxIeVGDMxMHf0piXiw==" />
       <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="ContosoAdsDbConnectionString" value="Data Source=(LocalDB)\MSSQLLocalDB; Initial Catalog=ContosoAds; Integrated Security=True; MultipleActiveResultSets=True;" />
+      <Setting name="ContosoAdsDbConnectionString" value="Server=tcp:banlong.database.windows.net,1433;Database=contosoads;User ID=banlong@banlong;Password={Sunghiep01};Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
